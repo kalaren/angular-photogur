@@ -2,6 +2,6 @@
 
 .picture{:"ng-repeat" => "picture in pictures"}
   %a{:"ng-href" => "/pictures/{{picture.id}}"} 
-    {{picture.title}}
+    {{picture.title}} 
   %br
   %img{:src => "{{picture.url}}"}
