@@ -1,0 +1,2 @@
+%h2 {{picture.title}} by {{picture.artist}}
+%img{:src => "{{picture.url}}"}
